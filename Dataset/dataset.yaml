@@ -1,0 +1,12 @@
+
+path: /content/drive/MyDrive/FaceMaskDetection          # dataset root dir 
+
+train: /content/drive/MyDrive/FaceMaskDetection/train   # train images 
+val: /content/drive/MyDrive/FaceMaskDetection/validate  # val images
+test: /content/drive/MyDrive/FaceMaskDetection/test     # test images (optional)
+
+# Classes
+
+nc: 2
+names: ['masked', 'not masked']
+
